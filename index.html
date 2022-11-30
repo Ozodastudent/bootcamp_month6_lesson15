@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>15-lesson</title>
+  </head>
+  <body>
+    <main>
+      <div class="hero">
+        <div class="containers">
+          <div class="hero_inner d-flex justify-content-between">
+            <div class="user_cards">
+              <ul class="user_cards_list list-unstyled"></ul>
+            </div>
+            <div class="post_cards">
+              <ul class="post_cards_list list-unstyled"></ul>
+            </div>
+            <div class="comment_cards">
+              <ul class="comment_cards_list list-unstyled"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <template class="user_template">
+      <li class="user_cards_item">
+        <div class="d-flex justify-content-between">
+          <div>
+            <h4 class="user_username mb-3"></h4>
+            <h5 class="user_name"></h5>
+            <p class="user_email"></p>
+          </div>
+          <div>
+            <h2 class="user_id"></h2>
+          </div>
+        </div>
+        <div class="my-4">
+          <h4 class="user_address mb-4">Address</h4>
+          <a
+            href=""
+            target="_blank"
+            class="user_location user_links text-decoration-none"
+          >
+            <img
+              class="user_icon"
+              src="./img/location.svg"
+              alt="location img here"
+            />
+            Address</a
+          >
+          <a
+            href=""
+            target="_blank"
+            class="user_phone user_links text-decoration-none ms-4"
+          >
+            <img class="user_icon" src="./img/phone.svg" alt="phone img here" />
+            Phone number</a
+          >
+          <br />
+          <div class="mt-4">
+            <a
+              href=""
+              target="_blank"
+              class="user_wikipedia user_links text-decoration-none"
+            >
+              <img
+                class="user_icon"
+                src="./img/globe.svg"
+                alt="globe img here"
+              />
+              Hildegard.org</a
+            >
+          </div>
+        </div>
+
+        <h4 class="company_info mb-4 mt-5">Company Info</h4>
+        <h6 class="company_info_title"></h6>
+        <p class="company_info_one"></p>
+        <p class="company_info_two"></p>
+        <button class="btn btn-success">click</button>
+      </li></template
+    >
+
+    <template class="post_template">
+      <li class="post_cards_item d-flex">
+        <div class="me-2">
+          <h5 class="post_title mb-4"></h5>
+          <p class="post_desc"></p>
+          <button class="post_btn btn btn-danger">Click</button>
+        </div>
+        <div>
+          <h2 class="post_id"></h2>
+        </div>
+      </li>
+    </template>
+
+    <template class="comment_template">
+      <li class="comment_cards_item d-flex">
+        <div class="me-3">
+          <h5 class="comment_title mb-4"></h5>
+          <p class="comment_desc"></p>
+        </div>
+        <div>
+          <h2 class="comment_id"></h2>
+        </div>
+      </li>
+    </template>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

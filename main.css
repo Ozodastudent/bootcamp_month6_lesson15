@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+body {
+  background-color: #f4978e;
+  font-family: "Merriweather";
+  overflow: hidden;
+}
+.hero {
+  padding: 10px;
+}
+.user_cards {
+  width: 33%;
+}
+
+.user_cards_list {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.user_cards_list::-webkit-scrollbar {
+  width: 6px;
+  background-color: #ffdab9;
+  border-radius: 3px;
+}
+.user_cards_list::-webkit-scrollbar-thumb {
+  background-color: #c4736c;
+  border-radius: 2px;
+}
+.user_cards_item {
+  margin-top: 20px;
+  padding: 20px;
+  width: 400px;
+  background-color: #ffdab9;
+  border-radius: 10px;
+}
+.user_address {
+  font-weight: 600;
+}
+.user_id {
+  font-size: 50px;
+  font-weight: 600;
+  color: grey;
+}
+.user_username {
+  font-weight: 600;
+}
+.user_links {
+  padding: 6px 20px;
+  border: 2px solid #f4978e;
+  border-radius: 3px;
+  color: rgb(49, 45, 45);
+}
+.user_links:hover {
+  background-color: white;
+  color: #c4736c;
+  border: 2px solid #dbc7c5;
+}
+.user_icon {
+  width: 20px;
+  height: 20px;
+}
+.company_info {
+  font-weight: 600;
+}
+.post_cards {
+  width: 33%;
+}
+.post_cards_list {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.post_cards_list::-webkit-scrollbar {
+  width: 6px;
+  background-color: #ffdab9;
+  border-radius: 3px;
+}
+.post_cards_list::-webkit-scrollbar-thumb {
+  background-color: #c4736c;
+  border-radius: 2px;
+}
+.post_cards_item {
+  margin-top: 20px;
+  padding: 20px;
+  width: 400px;
+  background-color: #ffdab9;
+  border-radius: 10px;
+}
+
+.post_desc {
+  color: rgb(92, 91, 91);
+}
+.post_id {
+  color: grey;
+}
+.comment_cards_list {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.comment_cards_list::-webkit-scrollbar {
+  width: 6px;
+  background-color: #ffdab9;
+  border-radius: 3px;
+}
+.comment_cards_list::-webkit-scrollbar-thumb {
+  background-color: #c4736c;
+  border-radius: 2px;
+}
+.comment_cards {
+  width: 33%;
+}
+.comment_cards_item {
+  margin-top: 20px;
+  padding: 20px;
+  width: 400px;
+  background-color: #ffdab9;
+  border-radius: 10px;
+}
+.comment_id {
+  color: grey;
+}
